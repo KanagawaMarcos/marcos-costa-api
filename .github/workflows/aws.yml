@@ -27,9 +27,6 @@ on:
   release:
     types: [created]
   workflow_dispatch:
-    inputs:
-      tags:
-        description: 'Testing...' 
 
 name: Deploy to Amazon ECS
 
