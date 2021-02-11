@@ -1,5 +1,6 @@
 on:
   workflow_dispatch:
+name: Deploy to Microsoft Azure
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
